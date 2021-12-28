@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 7%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #eee;
+  height: 100vh;
+  gap: 15px;
+  padding-bottom: 80px;
+}
+
+.container .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 400px;
+          flex: 1 1 400px;
+}
+
+.container .content .title {
+  font-size: 45px;
+  text-transform: uppercase;
+  color: #2980b9;
+}
+
+.container .content p {
+  padding: 5px 0;
+  color: #666;
+}
+
+.container .content .count-down {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.container .content .count-down .box {
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #3333;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20px;
+          flex: 1 1 20px;
+}
+
+.container .content .count-down .box h3 {
+  color: #333;
+  font-size: 50px;
+}
+
+.container .content .count-down .box span {
+  font-size: 20px;
+  color: #2980b9;
+}
+
+.container .content .btn {
+  display: inline-block;
+  padding: 8px 50px;
+  margin: 10px 0;
+  color: #fff;
+  background: #2980b9;
+  font-size: 17px;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.container .content .btn:hover {
+  letter-spacing: 2px;
+}
+
+.container .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 400px;
+          flex: 1 1 400px;
+}
+
+.container .image img {
+  width: 100%;
+}
+
+@media (maxwidth: 500px) {
+  .container {
+    padding: 20px;
+  }
+  .container .content {
+    text-align: center;
+  }
+  .container .content .title {
+    font-size: 35px;
+  }
+  .container .content p {
+    font-size: 14px;
+  }
+  .container .content .count-down {
+    gap: 5px;
+  }
+  .container .content .count-down .box h3 {
+    font-size: 30px;
+  }
+  .container .content .count-down .box span {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=trai.css.map */
